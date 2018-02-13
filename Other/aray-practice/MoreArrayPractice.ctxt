@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MoreArrayPractice
+comment0.text=\ AP\ Computer\ Science\r\n\ More\ Array\ Practice\r\n\r\n\ @author\ \ [\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ]\r\n\ @version\ [\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ]\r\n
+comment1.params=arr
+comment1.target=int\ mystery0(int[])
+comment2.params=arr
+comment2.target=int\ mystery1(int[])
+comment3.params=arr
+comment3.target=int\ mystery2(int[])
+comment4.params=list1\ list2
+comment4.target=void\ mystery3(int[],\ int[])
+comment5.params=arr
+comment5.target=int\ mystery4(int[])
+comment6.params=arr
+comment6.target=boolean\ mystery5(int[])
+comment7.params=arr
+comment7.target=void\ reverseIt(int[])
+comment8.params=arr
+comment8.target=int\ biggerThanIndex(int[])
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

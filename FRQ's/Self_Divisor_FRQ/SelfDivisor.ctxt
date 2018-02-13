@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SelfDivisor
+comment0.text=\ Andrew\ Wilomovsky\ Seld\ Divisor\r\nPublic\ class\ with\ ways\ to\ test\ the\ code
+comment1.params=number
+comment1.target=boolean\ isSelfDivisor(int)
+comment1.text=Test\ and\ finding\ the\ diviable\ amounts\ of\ each\ function
+comment2.params=start\ num
+comment2.target=int[]\ firstNumSelfDivisors(int,\ int)
+comment2.text=Finds\ each\ one\ from\ a\ starting\ point\ and\ how\ many\ to\ find
+numComments=3

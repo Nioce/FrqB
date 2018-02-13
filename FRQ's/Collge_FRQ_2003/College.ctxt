@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ College\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ region\ tuitionCost
+comment1.target=College(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=Returns\ the\ name\ of\ the\ college
+comment3.params=
+comment3.target=java.lang.String\ getRegion()
+comment3.text=Returns\ the\ Region\ of\ the\ college
+comment4.params=
+comment4.target=int\ getTuition()
+comment4.text=Returns\ the\ Tuition\ of\ the\ college
+comment5.params=newTuition
+comment5.target=void\ setTuition(int)
+comment5.text=Sets/updates\ the\ Tuition\ of\ a\ college
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=Returns\ the\ name\ of\ the\ college\ for\ the\ tester
+numComments=7

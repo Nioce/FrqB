@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Trail
+comment0.text=\r\n\ Andrew\ Wilomvsky\r\n\ \r\n\ Makes\ the\ trail\ class\r\n
+comment1.params=markers
+comment1.target=Trail(int[])
+comment2.params=
+comment2.target=boolean\ isDifficult()
+comment2.text=\r\n\ Checks\ if\ its\ difficult\ by\ checking\ the\ diffrence\ less\ than\ 30\r\n
+comment3.params=start\ end
+comment3.target=boolean\ islevelTrailSegment(int,\ int)
+comment3.text=\r\n\ Gets\ the\ average\ of\ the\ variables\r\n
+numComments=4

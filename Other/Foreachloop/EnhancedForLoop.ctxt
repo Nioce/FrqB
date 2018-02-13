@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EnhancedForLoop
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=nums
+comment2.target=double\ means(double[])
+comment3.params=nums
+comment3.target=double\ max(double[])
+numComments=4

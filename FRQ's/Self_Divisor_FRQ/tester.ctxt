@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=tester
+comment0.text=\ Andrew\ Wilomovsky\ Seld\ Divisor\r\nPublic\ tester\ class
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=Makes\ arugments\ to\ test,\ And\ prints\ them\ out\ based\ on\ the\ code\ in\ \#SelfDivisor
+numComments=2

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WordList
+comment1.params=list
+comment1.target=WordList(java.util.ArrayList)
+comment1.text=\r\n\ Makes\ mylist\ public\ function\ \r\n
+comment2.params=len
+comment2.target=int\ numWordOfLength(int)
+comment2.text=\r\n\ Counts\ the\ number\ of\ words\ in\ a\ list\ that\ match\ the\ length\r\n\ @parm\ gets\ the\ length\ of\ a\ word\ in\ the\ list\r\n\ @returns\ the\ number\ of\ words\ that\ match\ parm\r\n
+comment3.params=len
+comment3.target=void\ removeWordsOfLength(int)
+comment3.text=\r\n\ Counts\ the\ number\ of\ words\ in\ a\ list\ that\ match\ the\ length\ and\ removes\ them\r\n\ @parm\ gets\ word\ that\ match\ the\ length\ given\ and\ removes\ them\r\n\ @returns\ returns\ edited\ list\ based\ of\ parm\ \r\n
+numComments=4
