@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=NumberCube
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NumberCube\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=NumberCube(java.lang.String)
+comment2.params=
+comment2.target=int\ toss()
+comment3.params=cube\ numTosses
+comment3.target=int[]\ getCubeTosses(NumberCube,\ int)
+comment4.params=values
+comment4.target=int\ getLongestRun(int[])
+numComments=5
