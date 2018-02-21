@@ -1,6 +1,12 @@
 #BlueJ class context
 comment0.target=tester
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ tester\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2
+comment1.params=cube\ numTosses
+comment1.target=int[]\ getCubeTosses(NumberCube,\ int)
+comment1.text=\r\n\ Gets\ int\ based\ off\ roles\ and\ name\ of\ cube\r\n\ @parm\ nuber\ of\ tosses\ and\ name\ of\ cube\r\n\ @return\ int[]\r\n
+comment2.params=values
+comment2.target=int\ getLongestRun(int[])
+comment2.text=\r\n\ Finds\ longest\ int\ an\ a\ row\ \r\n\ @parm\ takes\ in\ int[]\ and\ checks\ how\ many\ are\ in\ a\ row\r\n\ @return\ longest\ running\ int\ value\r\n
+comment3.params=
+comment3.target=void\ main()
+comment3.text=\r\n\ Void\ main,\ tester\ for\ other\ class\ and\ functions\ above\r\n
+numComments=4
