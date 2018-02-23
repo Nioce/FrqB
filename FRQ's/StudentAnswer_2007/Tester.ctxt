@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Tester
+comment1.params=values
+comment1.target=java.util.ArrayList\ toArrayList(java.lang.String[])
+comment1.text=\r\n\ Converts\ ArrayString\ to\ arraylist\r\n\ @parm\ takes\ arraystring\ \r\n\ @return\ returns\ array\ list\r\n
+comment2.params=tester
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Test\ functions\ in\ other\ class\r\n\ @pram\ string's\ for\ tester\r\n\ @return's\ the\ results\ from\ sheets\ in\ the\ functions\ using\ the\ functions\ in\ the\ other\ class\r\n
+numComments=3

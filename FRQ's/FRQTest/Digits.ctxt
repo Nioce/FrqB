@@ -1,8 +1,12 @@
 #BlueJ class context
 comment0.target=Digits
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Digits\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ \r\n\ \\Class\ with\ all\ the\ code\r\n
 comment1.params=num
 comment1.target=Digits(int)
+comment1.text=\r\n\ Converts\ int\ into\ a\ array\ list\ and\ plugs\ it\ into\ the\ digit\ function.\r\n\ @parm\ takes\ in\ int\ of\ numes\r\n\ @return\ nothing\ \ \r\n
 comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
+comment2.target=boolean\ isStrictlyIncreasing()
+comment2.text=\r\n\ Sees\ if\ numbers\ in\ digit\ list\ are\ increasing\r\n\ @parm\ nothing\r\n\ @return\ true/false\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

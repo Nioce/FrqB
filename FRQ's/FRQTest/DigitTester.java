@@ -1,14 +1,15 @@
 
 /**
- * Write a description of class DigitTester here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * Andrew WIlomovsky
+* Tester class
+*/
 public class DigitTester
 {
+    /**
+    * Test function in other class based off what it creates 
+    */
     public static void main(){
-        int num = 15204;
+        int num = 123456789;
         int num2 = 15420;
         int num3 = 0;
         
@@ -17,6 +18,10 @@ public class DigitTester
         Digits d3 = new Digits(num3);
         
         System.out.println(d1);
-        
+        System.out.println(d2);
+        System.out.println(d3);
+        System.out.println(d1.isStrictlyIncreasing());
+        System.out.println(d2.isStrictlyIncreasing());
+        System.out.println(d3.isStrictlyIncreasing());
     }
 }
