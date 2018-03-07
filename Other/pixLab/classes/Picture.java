@@ -242,6 +242,34 @@ public class Picture extends SimplePicture
     }
   }
   
+  public void keepOnlyGreen()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        pixelObj.setRed(0);
+        pixelObj.setBlue(0);
+      }
+    }
+  }
+  
+  public void keepOnlyRed()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+
+        pixelObj.setBlue(0);
+        pixelObj.setGreen(0);
+      }
+    }
+  }
+  
+  
   public void negate()
   {
     Pixel[][] pixels = this.getPixels2D();
@@ -249,10 +277,44 @@ public class Picture extends SimplePicture
     {
       for (Pixel pixelObj : rowArray)
       {
-        pixelObj.getRed();
+        pixelObj.setRed(255 - pixelObj.getRed());
+        pixelObj.setBlue(255 - pixelObj.getBlue());
+        pixelObj.setGreen(255 - pixelObj.getGreen());
+
+      }
+    }
+  }
+  
+  public void grayScale()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+        {
+        int average = ((pixelObj.getRed() + pixelObj.getBlue() + pixelObj.getGreen())/3);
+        pixelObj.setBlue(average);
+        pixelObj.setGreen(average);
+        pixelObj.setRed(average);
+      }
+    }
+  }
+  
+  
+  public void fixUnderWater()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+        {
+
+        pixelObj.setBlue(pixelObj.getBlue()/ 2);
         
-        
-        pixelObj.setGreen(0);
+        pixelObj.setGreen(pixelObj.getGreen()/2);
+        pixelObj.setRed(pixelObj.getRed()*2);//pixelObj.getRed());
       }
     }
   }
