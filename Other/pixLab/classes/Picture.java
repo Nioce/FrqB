@@ -318,4 +318,25 @@ public class Picture extends SimplePicture
       }
     }
   }
+  
+  /** Method that mirrors the picture around a 
+    * vertical mirror in the center of the picture
+    * from left to right */
+  public void mirrorHorizontal()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel toppixel = null;
+    Pixel bottompixel = null;
+    int height = pixels.length;
+    for (int row = 0; row < height; row++)
+    {
+      for (int col = 0; col < pixels[0].length; col++)
+      {
+        toppixel = pixels[row][col];
+        bottompixel = pixels[height -row -1 ][col];
+        
+        toppixel.setColor(bottompixel.getColor());
+      }
+    } 
+  }
 } // this } is the end of class Picture, put all new methods before this

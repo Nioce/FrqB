@@ -365,4 +365,5 @@ public class Pixel
       " blue=" + getBlue();
   }
 
+  
 }
