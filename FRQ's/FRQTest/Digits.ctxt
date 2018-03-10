@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Digits
-comment0.text=\r\n\ \r\n\ \\Class\ with\ all\ the\ code\r\n
+comment0.text=\r\n\ Andrew\ WIlomovsky\r\n\ \\Class\ with\ all\ the\ code\r\n
 comment1.params=num
 comment1.target=Digits(int)
 comment1.text=\r\n\ Converts\ int\ into\ a\ array\ list\ and\ plugs\ it\ into\ the\ digit\ function.\r\n\ @parm\ takes\ in\ int\ of\ numes\r\n\ @return\ nothing\ \ \r\n

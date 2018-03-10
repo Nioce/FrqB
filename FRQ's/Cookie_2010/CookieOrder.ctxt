@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CookieOrder
+comment1.params=variety\ numboxes
+comment1.target=CookieOrder(java.lang.String,\ int)
+comment1.text=\r\n\ Makes\ a\ cookie\ box\ or\ a\ single\ cookie\ order\r\n\ @parm\ \ String\ Variety\ in\ numboxes\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getVariety()
+comment2.text=\r\n\ Gets\ the\ variety\ of\ the\ cookie\ order\r\n
+comment3.params=
+comment3.target=int\ getNumBoxes()
+comment3.text=\r\n\ Gets\ the\ number\ of\ boxes\ ordered\r\n
+numComments=4
