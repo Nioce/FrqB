@@ -119,7 +119,7 @@ public class Picture extends SimplePicture
   }
   
   /** Mirror just part of a picture of a temple */
-  public void mirrorTemple()
+  public int mirrorTemple()
   {
     int mirrorPoint = 276;
     Pixel leftPixel = null;
@@ -133,13 +133,14 @@ public class Picture extends SimplePicture
       // loop from 13 to just before the mirror point
       for (int col = 13; col < mirrorPoint; col++)
       {
-        
+        count+=col+row;
         leftPixel = pixels[row][col];      
         rightPixel = pixels[row]                       
                          [mirrorPoint - col + mirrorPoint];
         rightPixel.setColor(leftPixel.getColor());
       }
     }
+    return count;
   }
   
   /** copy from the passed fromPic to the
@@ -338,5 +339,28 @@ public class Picture extends SimplePicture
         toppixel.setColor(bottompixel.getColor());
       }
     } 
+  }
+  
+  public int mirrorVerticalRightToLeft()
+  {
+
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int count = 0;
+    Pixel[][] pixels = this.getPixels2D();
+    int height = pixels.length;
+    // loop through the rows
+    for (int row = 0; row < height; row++)
+    {
+      // loop from 13 to just before the mirror point
+      for (int col = 0; col < pixels[0].length; col++)
+      {
+        count+=col+row;
+        leftPixel = pixels[row][col];      
+        rightPixel = pixels[height-col][row];                  
+        rightPixel.setColor(leftPixel.getColor());
+      }
+    }
+    return count;
   }
 } // this } is the end of class Picture, put all new methods before this
