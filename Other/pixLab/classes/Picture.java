@@ -348,19 +348,20 @@ public class Picture extends SimplePicture
     Pixel rightPixel = null;
     int count = 0;
     Pixel[][] pixels = this.getPixels2D();
-    int height = pixels.length;
+    int width = pixels[0].length;
     // loop through the rows
-    for (int row = 0; row < height; row++)
+    for (int row = 0; row < pixels.length; row++)
     {
       // loop from 13 to just before the mirror point
-      for (int col = 0; col < pixels[0].length; col++)
+      for (int col = 0; col < width/2; col++)
       {
         count+=col+row;
         leftPixel = pixels[row][col];      
-        rightPixel = pixels[height-col][row];                  
+        rightPixel = pixels[row][width-col-1];                  
         rightPixel.setColor(leftPixel.getColor());
       }
     }
     return count;
   }
+  
 } // this } is the end of class Picture, put all new methods before this
