@@ -1,9 +1,7 @@
 
 /**
- * Write a description of class Item here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew wilomovksy
+ * This class Sets up item object 
  */
 public interface Item{
     double purachasePrice();    

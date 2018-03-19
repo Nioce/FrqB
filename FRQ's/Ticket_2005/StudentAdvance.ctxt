@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=StudentAdvance
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ StudentAdvance\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ wilomovsky\r\n\ Contains\ functions\ that\ gets\ price\ based\ off\ it\ being\ a\ student\r\n
 comment1.params=day
 comment1.target=StudentAdvance(int)
+comment1.text=\r\n\ Contructor,\ gets\ days\ from\ the\ other\ class\r\n\ @pram\ days\ \r\n
 comment2.params=
 comment2.target=double\ getPrice()
+comment2.text=\r\n\ Gets\ the\ student\ price\r\n\ @parm\ none\r\n\ @return\ double\r\n
 comment3.params=
 comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ To\ string\ metho\r\n\ @parm\ none\r\n\ @return\ string\r\n
 numComments=4

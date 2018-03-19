@@ -1,18 +1,26 @@
 
 /**
- * Write a description of class Advance here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew wilomovsky
+ * Class contains functions that get price
  */
-public abstract class  Advance extends Ticket 
+public class Advance extends Ticket 
 {
    private int day;
    
+   /**
+    * Contructor 
+     * @parm day
+     * @return none
+     */
    public Advance(int day){
        this.day=day;
    }
    
+   /**
+    * Gets cost based off days before event
+     * @parm none
+     * @return number
+     */
    public double getPrice(){
        if(day > 10){
           return 30;  

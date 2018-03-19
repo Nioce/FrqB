@@ -1,12 +1,15 @@
 #BlueJ class context
 comment0.target=Ticket
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ticket\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ Wilomovsky\r\n\ Base\ class\ \r\n
 comment1.params=
 comment1.target=Ticket()
 comment2.params=
 comment2.target=double\ getPrice()
+comment2.text=\r\n\ Contructs\ a\ getPrice()\ method\r\n\ @parm\ none\r\n\ @return\ int\ (when\ made\ in\ another\ class)\r\n
 comment3.params=
 comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ To\ string\ function\r\n\ @parm\ nothing\r\n\ @return\ String\r\n
 comment4.params=
 comment4.target=int\ getNextSerialNumber()
+comment4.text=\r\n\ Gets\ a\ serial\ number\r\n\ @parm\ none\r\n\ @return\ int\r\n
 numComments=5

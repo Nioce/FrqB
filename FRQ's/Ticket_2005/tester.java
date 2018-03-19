@@ -1,16 +1,22 @@
 
 /**
- * Write a description of class tester here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew wilomovsky
+ * tester class
  */
 public class tester
 {
+    /**
+     * Test functions
+     * @parm none
+     * @return args 
+     */
     public static void main(String[] args){
-        Vehicle subaru = new Vehicle(20000.00, 2500.00, 0.10);
-        System.out.println(subaru.getListPrice());
-        System.out.println(subaru.purachasePrice());
-        
+        Advance regularad = new Advance(20);
+        StudentAdvance studentad = new StudentAdvance(20);
+        Walkip justwalken= new Walkip();
+        System.out.println(regularad.getPrice());
+        System.out.println(studentad.getPrice());
+        System.out.println(justwalken.getPrice());
+        //System.out.println(studentad.getNextSerialNumber());
     }
 }

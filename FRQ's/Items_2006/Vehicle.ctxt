@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Vehicle
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vehicle\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ Wilomovsky\r\n\ Sets\ up\ vechical\ cost\ including\ <item>\r\n
 comment1.params=cost\ markup\ rate
 comment1.target=Vehicle(double,\ double,\ double)
+comment1.text=\r\nconstructor\ method\ for\ class\r\n@parm\ double\ cost,\ double\ markup,\ double\ rate\r\n@return\ none\r\n
 comment2.params=
 comment2.target=double\ getListPrice()
+comment2.text=\r\n\ Gets\ the\ price\ of\ car\ based\ off\ markup\ and\ orignal\ cost\r\n\ @parm\ none\r\n\ @return\ double\r\n
 numComments=3
