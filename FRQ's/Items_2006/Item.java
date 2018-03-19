@@ -6,6 +6,5 @@
  * @version (a version number or a date)
  */
 public interface Item{
-        double purcahsePrice();
-        
+    double purachasePrice();    
 }

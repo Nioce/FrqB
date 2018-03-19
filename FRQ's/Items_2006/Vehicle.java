@@ -5,17 +5,18 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public  abstract class Vehicle extends TaxableItem implements Item
+public class Vehicle extends TaxableItem
 {
     private double cost;
     private double markup;
+    
     public Vehicle(double cost, double markup, double rate){
         super(rate); 
-        cost=this.cost;
-        markup=this.markup;
+        this.cost=cost;
+        this.markup=markup;
     }
     
-    public double getPrice(){
+    public double getListPrice(){
         return cost+markup;
     }
     

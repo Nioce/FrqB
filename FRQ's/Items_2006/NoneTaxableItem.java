@@ -8,6 +8,6 @@
 public abstract class NoneTaxableItem implements Item
 {
     public double NoneTaxableItem(){
-        return purcahsePrice();
+        return purachasePrice();
     }
 }

@@ -4,5 +4,5 @@ comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vehicle\ here.\r\n\r\n\ @a
 comment1.params=cost\ markup\ rate
 comment1.target=Vehicle(double,\ double,\ double)
 comment2.params=
-comment2.target=double\ getPrice()
+comment2.target=double\ getListPrice()
 numComments=3

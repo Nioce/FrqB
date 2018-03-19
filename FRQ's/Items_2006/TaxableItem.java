@@ -8,10 +8,12 @@
 public abstract class TaxableItem implements Item
 {
     private double taxRates;
-    public TaxableItem(double rate){
-    taxRates = rate;}
-    public abstract double getListPrice();
     
+    public TaxableItem(double rate){
+        taxRates = rate;
+    }
+    
+    public abstract double getListPrice();  
         
     public double purachasePrice(){
         return getListPrice() * (1.0 + taxRates);

@@ -5,29 +5,15 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class StudentAdvance
+public class StudentAdvance extends Advance
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class StudentAdvance
-     */
-    public StudentAdvance()
-    {
-        // initialise instance variables
-        x = 0;
+    public StudentAdvance(int day){
+        super(day);
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public double getPrice(){
+        return (super.getPrice())/2;
+    }
+    public String toString(){
+        return super.toString() + " Student id needed";
     }
 }
