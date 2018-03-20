@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=NoneTaxableItem
 comment0.text=\r\n\ Andrew\ wilomovsky\r\n\ Class\ for\ nonetaxbale\ items,\ item\ subclass\r\n
-comment1.params=
-comment1.target=double\ NoneTaxableItem()
-comment1.text=\r\n\ Returns\ the\ cost\ for\ a\ none\ taxable\ item\r\n\ @parm\ none\r\n\ @return\ double\ \r\n
-numComments=2
+comment1.params=cost\ markup
+comment1.target=NoneTaxableItem(double,\ double)
+comment1.text=\r\nconstructor\ method\ for\ class\r\n@parm\ double\ cost,\ double\ markup\r\n@return\ none\r\n
+comment2.params=
+comment2.target=double\ purachasePrice()
+comment2.text=\r\n\ Returns\ the\ cost\ for\ a\ none\ taxable\ item\r\n\ @parm\ none\r\n\ @return\ double\ \r\n
+comment3.params=newMarkUp
+comment3.target=void\ changeMarkup(double)
+comment3.text=\r\n\ Changes\ the\ markup\ to\ a\ new\ value\r\n\ @parm\ double\ newMarkup\r\n\ @return\ none\r\n
+numComments=4

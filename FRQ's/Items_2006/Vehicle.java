@@ -27,5 +27,22 @@ public class Vehicle extends TaxableItem
     public double getListPrice(){
         return cost+markup;
     }
+   
+    /**
+     * Changes the markup to a new value
+     * @parm double newMarkup
+     * @return none
+     */
+    public void changeMarkup(double newMarkUp){
+        markup = newMarkUp;
+    }
     
+   /**
+     * Gets the markup
+     * @parm none
+     * @return double
+     */
+    public double markUp(){
+        return markup;
+    }
 }
