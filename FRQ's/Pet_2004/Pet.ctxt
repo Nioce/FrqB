@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Pet
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pet\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\nAndrew\ wilomovsky\r\nBase\ pet\ class\r\n
 comment1.params=name
 comment1.target=Pet(java.lang.String)
+comment1.text=\r\n\ Contructor\ for\ all\ pets\r\n\ @parm\ name\r\n\ @return\ none\r\n
 comment2.params=
 comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ name\ for\ all\ pets\r\n\ @parm\ none\r\n\ @return\ string\r\n
 comment3.params=
 comment3.target=java.lang.String\ speak()
+comment3.text=\r\n\ Constructor\ for\ the\ speak\ method\ \r\n\ @parm\ none\r\n\ @return\ string\r\n
 numComments=4

@@ -1,18 +1,25 @@
 import java.util.ArrayList;
 /**
- * Write a description of class Kennel here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+* Andrew wilomovsky
+* Kennel class for all pets
+*/
 public class Kennel
 {
     private ArrayList<Pet> petList;
-    
+    /**
+     * Contrcutor makes pets into a group
+     * @parm ArrayList<pets>
+     * @return none
+     */
     public Kennel(ArrayList<Pet> petList){
         this.petList = petList;
     }
     
+    /**
+     * Makes all the animals speak
+     * @parm none
+     * @return V O I d
+     */
     public void allSpeak(){
         for(Pet p : petList){
             System.out.println(p.getName() + ": " + p.speak());

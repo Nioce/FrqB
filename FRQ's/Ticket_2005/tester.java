@@ -17,10 +17,11 @@ public class tester
         Walkip justwalken= new Walkip();
         
         System.out.println(studentad);
-        System.out.println(regularad.getPrice());
+        System.out.println();
+        System.out.println();
         System.out.println(regularad);
-        System.out.println(studentad.getPrice());
-        System.out.println(justwalken.getPrice());
+        System.out.println();
+        System.out.println();
         System.out.println(justwalken);
         //System.out.println(studentad.getNextSerialNumber());
     }

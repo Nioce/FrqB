@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 /**
- * Write a description of class PetTester here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew WIlomovsky
+ * Tester class for all the animals
  */
 public class PetTester
 {
+    /**
+     * Test functions in other class
+     * @parm args
+     * @return voiddd
+     */
     public static void main(String[] args){
         Pet p1 = new Dog("Rex");
         Pet p3 = new Dog("Lol");

@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Kennel
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Kennel\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ wilomovsky\r\n\ Kennel\ class\ for\ all\ pets\r\n
 comment1.params=petList
 comment1.target=Kennel(java.util.ArrayList)
+comment1.text=\r\n\ Contrcutor\ makes\ pets\ into\ a\ group\r\n\ @parm\ ArrayList<pets>\r\n\ @return\ none\r\n
 comment2.params=
 comment2.target=void\ allSpeak()
+comment2.text=\r\n\ Makes\ all\ the\ animals\ speak\r\n\ @parm\ none\r\n\ @return\ V\ O\ I\ d\r\n
 numComments=3
