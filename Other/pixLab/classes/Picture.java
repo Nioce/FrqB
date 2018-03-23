@@ -311,11 +311,11 @@ public class Picture extends SimplePicture
     {
       for (Pixel pixelObj : rowArray)
         {
-
-        pixelObj.setBlue(pixelObj.getBlue()/ 2);
+        int avg = (pixelObj.getBlue() + pixelObj.getGreen())/3;
+        pixelObj.setBlue(pixelObj.getBlue()/ 2+avg-50);
         
-        pixelObj.setGreen(pixelObj.getGreen()/2);
-        pixelObj.setRed(pixelObj.getRed()*2);//pixelObj.getRed());
+        pixelObj.setGreen(pixelObj.getGreen()/2+avg-50);
+        pixelObj.setRed(pixelObj.getRed()*2+20);//pixelObj.getRed());
       }
     }
   }
@@ -363,5 +363,27 @@ public class Picture extends SimplePicture
     }
     return count;
   }
+  
+  public int mirrorDiagonal(){
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int count = 0;
+    Pixel[][] pixels = this.getPixels2D();
+    int width = pixels[0].length;
+    // loop through the rows
+    for (int row = 0; row < pixels.length; row++)
+    {
+      // loop from 13 to just before the mirror point
+      for (int col = 0; col < width/2; col++)
+      {
+        count+=col+row;
+        leftPixel = pixels[row][col];      
+        rightPixel = pixels[row][width-col-1];                  
+        rightPixel.setColor(leftPixel.getColor());
+      }
+    }
+    return count;
+  }
+  
   
 } // this } is the end of class Picture, put all new methods before this
