@@ -2,6 +2,11 @@
 comment0.target=DiverseArray
 comment1.params=array
 comment1.target=int\ arraySum(int[])
+comment1.text=\r\n\ Adds\ all\ the\ number\ in\ a\ row\r\n\ @parm\ array[]\ \r\n\ @return\ int\ sum\r\n
 comment2.params=array
 comment2.target=int[]\ rowSums(int[][])
-numComments=3
+comment2.text=\r\n\ Adds\ all\ the\ number\ in\ a\ row\ for\ each\ collumn\r\n\ @parm\ int\ array[][]\r\n\ @return\ int[]\ sum\r\n
+comment3.params=array1
+comment3.target=boolean\ isDiverse(int[][])
+comment3.text=\r\n\ Checks\ if\ any\ of\ the\ sums\ of\ the\ arrays[][]\ are\ the\ same\r\n\ @parm\ array1\ int[][]\r\n\ @return\ boolean\r\n
+numComments=4
