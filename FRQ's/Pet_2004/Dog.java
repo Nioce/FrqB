@@ -7,20 +7,10 @@ import java.util.ArrayList;
  */
 public class Dog extends Pet
 {
-    /**
-     * Contructor for all regular dogos
-     * @parm name
-     * @return none
-     */
     public Dog(String name){
         super(name);
     }
     
-    /**
-     * Speak method 
-     * @parm  none
-     * @return String 
-     */
     public String speak(){
         return "bork";
     }
