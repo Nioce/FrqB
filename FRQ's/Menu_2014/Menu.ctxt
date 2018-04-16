@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Menu
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Menu\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ WIlomovsky\r\n\ Menu,\ base\ class\r\n
 comment1.params=
 comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Base\ get\ name\ function\ \r\n\ @parm\ String\ name\r\n\ @return\ String\ name\r\n
 comment2.params=
 comment2.target=double\ getPrice()
+comment2.text=\r\n\ Base\ get\ price\ function\r\n\ @parm\ double\ \r\n\ @return\ double\r\n
 numComments=3

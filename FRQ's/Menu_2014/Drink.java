@@ -1,12 +1,12 @@
 
 /**
- * Write a description of class Drink here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew Wilomovsky
+ * Drink class
+ * 
  */
 public class Drink implements Menu 
 {
+    
     private String drink;
     private double price;
     public Drink(String drink, double price){
@@ -19,9 +19,6 @@ public class Drink implements Menu
     }
     
     public double getPrice(){
-        if(drink == "Orange Soda"){
-            return 1.25;
-        }
-        return 3.50;
+        return price;
     }
 }

@@ -1,9 +1,7 @@
 
 /**
- * Write a description of class Sandwich here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Andrew WIlomovsky
+ * Sandwich class
  */
 public class Sandwich implements Menu 
 {
@@ -19,9 +17,6 @@ public class Sandwich implements Menu
     }
     
     public double getPrice(){
-        if(sandwich == "Cheeseburger"){
-            return 2.75;
-        }
-        return 2.75;
+        return price;
     }
 }
