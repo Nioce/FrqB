@@ -1,10 +1,16 @@
 #BlueJ class context
 comment0.target=ClimbInfo
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ ClimbInfo\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ WIlomvosky\r\n\ Base\ climb\ class\r\n\ \r\n
 comment1.params=peakName\ climbTime
 comment1.target=ClimbInfo(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ climb's\r\n\ @parm\ String\ peakName,\ int\ climbTime\ \r\n
 comment2.params=
 comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ name\r\n\ @return\ String\ \r\n
 comment3.params=
 comment3.target=int\ getTime()
-numComments=4
+comment3.text=\r\n\ Gets\ time\r\n\ @returns\ int\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ To\ string\ function\r\n\ @return\ String\r\n
+numComments=5

@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=ClimbingClub
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ ClimbingClub\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Andrew\ Wilomovky\r\n\ Mountian\ group\ class,\ adds\ peaks\ and\ does\ other\ stuff\r\n
 comment1.params=
 comment1.target=ClimbingClub()
+comment1.text=\r\n\ Constructor\ makes\ arraylist\r\n
 comment2.params=peakname\ climbTime
 comment2.target=void\ addClimb(java.lang.String,\ int)
+comment2.text=\r\n\ Adds\ climbs\ to\ list\ \r\n\ @parm\ String\ peakname,\ int\ climbTime\r\n\ @return\ V\ O\ I\ D\r\n
 comment3.params=
 comment3.target=int\ distinctPeakNames()
-comment3.text=@return\ the\ number\ of\ distinct\ names\ in\ the\ list\ of\ climbs
-numComments=4
+comment3.text=\ the\ number\ of\ distinct\ names\ in\ the\ list\ of\ climbs\r\n@return\ int
+comment4.params=
+comment4.target=java.util.ArrayList\ getList()
+comment4.text=\r\n\ To\ string\ function\ but\ with\ arrays\r\n\ @return\ ArrayList<ClimbInfo>\r\n
+numComments=5
